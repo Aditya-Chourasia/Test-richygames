@@ -178,17 +178,16 @@ h1 {
 
 .images-a-b img {
   width: 180px;
+  transition: all 0.3s ease;
 }
 
 .images-a-b:hover {
-  box-shadow:
-  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
-  100px 100px 80px rgba(0, 0, 0, 0.07)
-;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
 }
 
 /* carousel */
@@ -198,7 +197,7 @@ h1 {
 
 .carousel-item {
   text-align: center;
-  padding: 3% 7%;;
+  padding: 3% 7%;
   height: 550px;
   overflow: hidden;
   width: 100%;
@@ -254,6 +253,32 @@ h1 {
 .Inspire-20-Logo-Excellence-in-Digital-Technology {
   width: 200px !important;
   margin: 20px 30px !important;
+}
+
+/* case-studies */
+#case-studies {
+  padding: 3% 7%;
+}
+
+#case-studies h1 {
+  color: #000;
+  margin-bottom: 20px;
+}
+
+#case-studies .card {
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+#case-studies .card:hover {
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  border: none;
+  padding: 20px;
 }
 
 /* Mobile */
