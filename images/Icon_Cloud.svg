@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="54.56" height="39.618" viewBox="0 0 54.56 39.618">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.262" y1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d66080"/>
+      <stop offset="1" stop-color="#c03089"/>
+    </linearGradient>
+  </defs>
+  <path id="Icon_Cloud" d="M213.008,138.86A12.193,12.193,0,0,1,224.6,147.3a12.2,12.2,0,1,1,2.089,24.228h-25.7a9.714,9.714,0,0,1-.131-19.427,12.2,12.2,0,0,1,12.15-13.246m0-3.472a15.679,15.679,0,0,0-15.552,13.727,13.187,13.187,0,0,0,3.533,25.891h25.7a15.675,15.675,0,0,0,.121-31.35,15.606,15.606,0,0,0-13.8-8.266Z" transform="translate(-187.805 -135.388)" fill="url(#linear-gradient)"/>
+</svg>

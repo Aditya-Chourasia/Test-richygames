@@ -1,0 +1,271 @@
+body {
+  font-family: "Montserrat";
+}
+
+/* font is installed via CDN */
+
+.row {
+  width: 100%;
+}
+
+/* tag section */
+p {
+  font-weight: normal;
+  line-height: 2;
+  color: white;
+}
+
+h1 {
+  line-height: 1.5;
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+}
+/* heading section */
+.title-div {
+  padding: 3% 7%;
+  margin-top: 5%;
+  width: 100%;
+}
+
+#header {
+  background: rgb(236, 41, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(236, 41, 145, 1) 0%,
+    rgba(165, 54, 146, 1) 100%
+  );
+  padding: 0 0 7% 0;
+}
+
+/* navbar section */
+.navbar {
+  padding: 3% 7% 0 7%;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+/* title section */
+.t-award-img {
+  text-align: center;
+}
+
+.award-img {
+  margin: 50px 0 1px;
+}
+
+.t-award-img p {
+  width: 50%;
+  margin: 2rem auto;
+  color: white;
+}
+
+.title-div-content p:hover {
+  text-decoration: underline;
+}
+
+.title-div-content {
+  padding-top: 30px;
+}
+
+.title-div-content p {
+  width: 70%;
+}
+
+/* bullets section */
+#bullets {
+  padding: 3% 7%;
+}
+
+.bullet {
+  padding: 3%;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.bullet:hover {
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+.bullet img {
+  padding-bottom: 10px;
+}
+
+.bullet p {
+  color: black;
+  width: 70%;
+  margin: 0 auto;
+  font-weight: bold;
+}
+
+/* award section */
+#awards {
+  padding: 0% 5%;
+  background: #d377b0;
+}
+
+.award-banner {
+  width: 100%;
+}
+
+#awards h2 {
+  color: #fff;
+  font-weight: 800;
+  line-height: 1.5;
+}
+
+.a-text {
+  padding: 50px 20px;
+}
+
+.award-section-c {
+  width: 82px;
+  height: 23px;
+}
+
+.rating-c {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.rating-c-image {
+  display: inline-block;
+}
+
+.five-star {
+  width: 20px;
+  height: 20px;
+}
+
+.award-section-images p {
+  color: black;
+  line-height: 2;
+  margin: 0;
+}
+
+.Microsoft {
+  margin-bottom: 20px;
+}
+
+.award-section-images {
+  text-align: center;
+}
+
+/* awards-bullets */
+#awards-bullets {
+  padding: 7% 3%;
+}
+
+.images-a-b {
+  text-align: center;
+  margin: 20px auto;
+  transition: all 0.3s ease;
+}
+
+.images-a-b img {
+  width: 180px;
+}
+
+.images-a-b:hover {
+  box-shadow:
+  2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+  22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  100px 100px 80px rgba(0, 0, 0, 0.07)
+;
+}
+
+/* carousel */
+#awards-card {
+  background-color: rgba(236, 41, 145, 1);
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 3% 7%;;
+  height: 550px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-item img {
+  filter: invert(1);
+  padding-bottom: 20px;
+  margin-top: 50px;
+}
+
+.carousel-item h2 {
+  width: 50%;
+  margin: 10px auto;
+  line-height: 1.2;
+}
+
+.carousel-item h2:hover {
+  text-decoration: underline;
+}
+
+.special-icon {
+  filter: invert(0) !important;
+  width: 20%;
+}
+
+/* award-2 */
+#award-2 {
+  padding: 7% 1%;
+  text-align: center;
+}
+
+#award-2 img {
+  width: 100px;
+  margin: 20px 30px;
+}
+
+.ISO-accreditation {
+  width: 200px !important;
+  margin: 20px 30px !important;
+}
+
+.partner-program-silver {
+  width: 250px !important;
+  margin: 20px 30px !important;
+}
+
+.clutch-2020-circle {
+  width: 150px !important;
+  margin: 20px 30px !important;
+}
+
+.Inspire-20-Logo-Excellence-in-Digital-Technology {
+  width: 200px !important;
+  margin: 20px 30px !important;
+}
+
+/* Mobile */
+@media only screen and (max-width: 800px) {
+  .carousel-item {
+    height: 850px;
+  }
+}
+
+/* tablet */
+@media only screen and (max-width: 900px) {
+  .carousel-item {
+    height: 900px;
+  }
+}
