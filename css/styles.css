@@ -267,6 +267,7 @@ h1 {
 
 #case-studies .card {
   text-align: center;
+  margin-bottom: 10px;
   transition: all 0.3s ease;
 }
 
