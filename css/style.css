@@ -1,0 +1,176 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu&display=swap");
+
+/* body section */
+body {
+  font-family: "Montserrat";
+}
+
+/* every class css */
+.row {
+  width: 100%;
+}
+
+/* tag section */
+
+h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  line-height: 2;
+}
+
+p {
+  font-family: "Montserrat";
+  font-weight: normal;
+  line-height: 2;
+}
+
+/* navbar section */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+/* title section */
+#title {
+  padding: 3% 7%;
+}
+
+.title-text {
+  padding-top: 100px;
+}
+
+.t-t-heading-1 {
+  font-weight: 700;
+}
+
+.t-t-image-clutch {
+  display: block;
+  margin: 0 auto;
+}
+
+.title-text-images {
+  text-align: center;
+  padding: 3% 10%;
+}
+
+.t-t-hr {
+  margin-top: 20px;
+}
+
+.t-t-row-col-images-text {
+  margin-top: 20px;
+  transition: all 0.3s ease;
+}
+
+.t-t-row-col-images-text:hover {
+  padding: 10px;
+  cursor: pointer;
+}
+
+.t-t-para:hover {
+  text-decoration: underline;
+}
+
+/* what we can do */
+#wcd {
+  text-align: center;
+  padding: 2% 4%;
+}
+
+/* award section */
+#awards {
+  padding: 0 7% 3%;
+  background-color: #d377b0;
+  color: #fff;
+}
+
+.award-banner {
+  width: 90%;
+}
+
+.a-heading1 {
+  font-size: 1.5rem;
+  margin-top: 50px;
+}
+
+.n-r-s-n-s-para {
+  color: rgb(233, 233, 233);
+  line-height: 1;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.five-star {
+  width: 20px;
+}
+
+.nested-row {
+  margin-top: 40px;
+}
+
+.n-r-col {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.Icon_Clutch {
+  width: 121px;
+  height: 35px;
+}
+
+/* award-silde-show */
+#award-silde-show {
+  margin: 7% 0;
+}
+
+.carousel-item {
+  padding: 3% 7% 3%;
+  text-align: center;
+}
+
+.carousel-silde-images {
+  width: 250px;
+  height: 132px;
+  margin: 0 0 30px 0;
+}
+
+.lg-image-slide {
+  width: 152px;
+  height: 130px;
+}
+
+/* wcwd-2 */
+#wcwd-2 img {
+  filter: invert(1);
+}
+
+#wcwd-2 {
+  padding: 7% 3%;
+  text-align: center;
+  background-color: #C03089;
+}
+
+#wcwd-2 .card {
+    background: none;
+    padding: 50px;
+    transition: all 0.3s ease;
+}
+
+#wcwd-2 .card img {
+    margin-bottom: 20px;
+}
+
+#wcwd-2 .card:hover {
+    background-color: #d377b0;
+  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+    100px 100px 80px rgba(0, 0, 0, 0.07);
+  border: none;
+}
