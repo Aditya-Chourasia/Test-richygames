@@ -1,36 +1,14 @@
-/* font import */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu&display=swap");
+/*google fonts import*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
 
-/* body section */
+/*body*/
 body {
-  font-family: "Montserrat";
+  font-family: "Roboto";
 }
 
-/* every class css */
+/**/
 .row {
   width: 100%;
-}
-
-/* tag section */
-
-h1 {
-  font-family: "Montserrat";
-  font-weight: 700;
-  line-height: 2;
-}
-
-p {
-  font-family: "Montserrat";
-  font-weight: normal;
-  line-height: 2;
-}
-
-/* navbar section */
-
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-weight: bold;
-  font-size: 2rem;
 }
 
 /* title section */
@@ -38,139 +16,224 @@ p {
   padding: 3% 7%;
 }
 
-.title-text {
+/*navbar*/
+.navbar {
+  align-items: center;
+}
+
+.navbar-brand {
+  width: 154px;
+  height: 50px;
+}
+
+.nav-item {
+  margin: 0 20px;
+}
+
+.nav-link:hover {
+  color: #ec2e93 !important;
+}
+
+/*title-text*/
+.title {
   padding-top: 100px;
 }
 
-.t-t-heading-1 {
-  font-weight: 700;
+.title-heading {
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
 }
 
-.t-t-image-clutch {
-  display: block;
-  margin: 0 auto;
-}
-
-.title-text-images {
-  text-align: center;
-  padding: 3% 10%;
-}
-
-.t-t-hr {
-  margin-top: 20px;
-}
-
-.t-t-row-col-images-text {
-  margin-top: 20px;
-  transition: all 0.3s ease;
-}
-
-.t-t-row-col-images-text:hover {
-  padding: 10px;
-  cursor: pointer;
-}
-
-.t-t-para:hover {
-  text-decoration: underline;
-}
-
-/* what we can do */
-#wcd {
-  text-align: center;
-  padding: 2% 4%;
-}
-
-/* award section */
-#awards {
-  padding: 0 7% 3%;
-  background-color: #d377b0;
-  color: #fff;
-}
-
-.award-banner {
-  width: 90%;
-}
-
-.a-heading1 {
+.title-paragraph {
+  font-weight: 300;
   font-size: 1.5rem;
+  line-height: 2;
+}
+
+/*title-image*/
+.clutch-image-title {
+  text-align: center;
+}
+
+.clutch-subtitle {
+  display: block;
+  width: 50%;
+  margin: 20px auto 0;
+}
+
+/*bullets-about*/
+#bullets-about {
+  text-align: center;
+  padding: 6% 7%;
+}
+
+#bullets-about strong {
+  display: block;
+  margin-top: 10px;
+}
+
+#bullets-about .col-lg-2 {
   margin-top: 50px;
 }
 
-.n-r-s-n-s-para {
-  color: rgb(233, 233, 233);
-  line-height: 1;
-  margin-bottom: 10px;
-  margin-top: 20px;
+/* clutch review */
+#clutch-review {
+  padding: 3% 7%;
+}
+
+.clutch-review-heading {
+  line-height: 1.4;
+  font-weight: 700;
+  margin-top: 50px;
+  font-size: 2rem;
+}
+
+.clutch-review-paragraph {
+  font-weight: normal;
+  line-height: 1.5;
+  color: #464445;
+}
+
+.clutch-review-rating {
+  margin: 2px;
 }
 
 .five-star {
-  width: 20px;
+  height: 25px;
+  width: 25px;
 }
 
-.nested-row {
-  margin-top: 40px;
-}
-
-.n-r-col {
-  text-align: center;
-  margin-top: 20px;
+.clutch-review-img {
   margin-bottom: 20px;
 }
 
-.Icon_Clutch {
-  width: 121px;
-  height: 35px;
-}
-
-/* award-silde-show */
-#award-silde-show {
-  margin: 7% 0;
-}
-
+/* carousel */
 .carousel-item {
-  padding: 3% 7% 3%;
+  padding: 3% 15%;
   text-align: center;
 }
 
-.carousel-silde-images {
-  width: 250px;
-  height: 132px;
-  margin: 0 0 30px 0;
+.second-slide-awards img {
+    width: 150px;
+    margin: 20px;
 }
 
-.lg-image-slide {
-  width: 152px;
-  height: 130px;
+/* case-studies */
+#case-studies {
+    padding: 3% 7%;
 }
 
-/* wcwd-2 */
-#wcwd-2 img {
-  filter: invert(1);
+#case-studies img {
+    width: 100%;
 }
 
-#wcwd-2 {
-  padding: 7% 3%;
-  text-align: center;
-  background-color: #C03089;
+#case-studies .card {
+    margin: 30px 0;
 }
 
-#wcwd-2 .card {
-    background: none;
-    padding: 50px;
-    transition: all 0.3s ease;
+/* people-who-trust-us */
+#people-who-trust-us {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
 }
 
-#wcwd-2 .card img {
-    margin-bottom: 20px;
+#people-who-trust-us .card {
+    margin: 20% auto;
+    width: 40rem;
+    padding: 40px;
 }
 
-#wcwd-2 .card:hover {
-    background-color: #d377b0;
-  box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
-    6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
-    12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
-    22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
-    41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
-    100px 100px 80px rgba(0, 0, 0, 0.07);
-  border: none;
+/* tech stack */
+
+#tech-stack {
+    padding: 3% 7%;
+    top: 900px;
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
 }
+
+
+/* blogs */
+#blogs {
+    padding: 3% 7%;
+    padding: 3% 7%;
+    top: 900px;
+    position: relative;
+    width: 100%;
+    margin-top: 100px;
+}
+#blogs .card-top-img  img {
+    width: 100%;
+}
+
+#blogs .card {
+    height: 28rem;
+    margin: 30px 10px; 
+    border: 1px solid black;
+}
+
+
+/* footer */
+/* apne bola tha ki aap footer achha batate ho isliye maine footer apke chorr diya */
+
+/* I tried to keep code organised */
+
+
+/* small laptop and ipad view */ 
+@media screen and (max-width: 1024px) {
+   #title {
+       padding: 2% 4%;
+   }
+
+    .five-star {
+        width: 13px;
+        height: 13px;
+    }
+
+    #tech-stack {
+        top: 1050px;
+    }
+
+    #blogs {
+        top: 1050px;
+    }
+}
+
+
+/* tablets view */
+@media screen and (max-width: 991px) {
+    .title-heading {
+        text-align: center;
+    }
+
+    .title-paragraph {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #blogs .card {
+        height: 32rem;
+    }
+
+}
+
+/* mobile view */
+@media screen and (max-width: 590px) {
+    #people-who-trust-us .card {
+        width: 90%;
+    }
+
+    #tech-stack {
+        top: 850px;
+    }
+
+    #blogs {
+        top: 850px;
+    }
+}
+
+/* 99% responsive on android mobile and 100% on tablet and 95% responsive on iphones and 100% on all size laptop */
